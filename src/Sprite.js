@@ -1,5 +1,5 @@
 export default class Sprite {
-  constructor ({ image, sliceWidth = 64, sliceHeight = 64, currentAnimation = 'Idle', animations = [] }) {
+  constructor ({ image, sliceWidth = 64, sliceHeight = 64, currentAnimation = null, animations = [] }) {
     this.image = new Image();
     this.image.src = image;
 
